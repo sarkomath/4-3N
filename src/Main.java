@@ -2,17 +2,17 @@ public class Main {
     public static void main(String[] args) {
         CreditPaymentService service = new CreditPaymentService();
 
-        double FirstPic = service.calculate(1000000, 12, 9.99);
+        double firstPic = service.calculate(1000000, 12, 9.99);
         System.out.println("1 year:");
-        System.out.println(FirstPic);
+        System.out.println(firstPic);
 
-        double SecondPic = service.calculate(1000000, 24, 9.99);
+        double secondPic = service.calculate(1000000, 24, 9.99);
         System.out.println("2 years:");
-        System.out.println(SecondPic);
+        System.out.println(secondPic);
 
-        double ThirdPic = service.calculate(1000000, 36,9.99);
+        double thirdPic = service.calculate(1000000, 36,9.99);
         System.out.println("3 yeas:");
-        System.out.println(ThirdPic);
+        System.out.println(thirdPic);
 
 
     }
